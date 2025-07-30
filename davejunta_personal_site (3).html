@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dawit Weldegebreal | Davejunta</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      scroll-behavior: smooth;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: url('https://upload.wikimedia.org/wikipedia/commons/9/92/Danakil_Depression_in_Tigray.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #f0f0f0;
+    }
+    header {
+      background-color: rgba(0, 0, 0, 0.9);
+      padding: 3rem 1rem;
+      text-align: center;
+      animation: fadeIn 2s ease-in-out;
+    }
+    header h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      color: gold;
+    }
+    header p {
+      font-size: 1.4rem;
+      color: #ccc;
+    }
+    section {
+      max-width: 1000px;
+      margin: auto;
+      background-color: rgba(15, 15, 15, 0.8);
+      padding: 2rem;
+      margin-top: 2rem;
+      border-radius: 10px;
+      animation: slideUp 1s ease-out;
+      border: 2px solid #444;
+    }
+    h2 {
+      border-bottom: 2px solid #555;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+      color: #00bcd4;
+    }
+    .social {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .social a {
+      display: inline-block;
+      background-color: #00bcd4;
+      color: #121212;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .contact-button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.7rem 1.5rem;
+      background-color: gold;
+      color: #121212;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .quote {
+      margin-top: 2rem;
+      font-style: italic;
+      color: #ccc;
+    }
+    .images, .game-gallery, .design-portfolio {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 1.5rem;
+      justify-content: center;
+    }
+    .images img, .game-gallery img, .design-portfolio img {
+      width: 100%;
+      max-width: 280px;
+      border-radius: 10px;
+      border: 2px solid #555;
+      transition: transform 0.3s ease;
+    }
+    .images img:hover, .game-gallery img:hover, .design-portfolio img:hover {
+      transform: scale(1.05);
+    }
+    audio {
+      width: 100%;
+      margin-top: 1rem;
+    }
+    .testimonial {
+      background-color: #222;
+      padding: 1rem;
+      border-left: 4px solid yellow;
+      margin-top: 1rem;
+      font-style: italic;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dawit Weldegebreal Asgedom</h1>
+    <p>Also known as <strong>Davejunta</strong> | Tigrayan ✊ | Orthodox 🙏 | Gamer 🎮 | Designer 🎨</p>
+    <p style="font-size: 1.6rem; color: gold;">"ትግራይ ንቅድሚት ✊"</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>I’m <strong>Davejunta</strong>, studying <strong>Hardware and Networking Service</strong> at Poly Technical College. Proud Tigrayan ✊, Orthodox Christian 🙏, creative designer 🎨, and war game lover 🎮. I turn imagination into visuals and battles into strategies.</p>
+
+    <h2>Skills</h2>
+    <ul>
+      <li>🎮 Gaming (Strategy & War)</li>
+      <li>🧠 Team Leadership</li>
+      <li>🎨 Graphics Design</li>
+      <li>💻 Hardware & Network Setup</li>
+    </ul>
+
+    <h2>My Favorite Games</h2>
+    <div class="game-gallery">
+      <img src="https://upload.wikimedia.org/wikipedia/en/1/18/Call_of_Duty_Modern_Warfare_II_Key_Art.jpg" alt="Call of Duty">
+      <img src="https://upload.wikimedia.org/wikipedia/en/3/33/PUBG_New_State_logo.jpg" alt="PUBG">
+      <img src="https://upload.wikimedia.org/wikipedia/en/5/5c/GTAViceCity_BoxArt.jpg" alt="GTA Vice City">
+      <img src="https://upload.wikimedia.org/wikipedia/en/c/c4/GTASABOX.jpg" alt="GTA San Andreas">
+    </div>
+
+    <h2>Design Portfolio</h2>
+    <div class="design-portfolio">
+      <img src="https://i.imgur.com/94nUPtn.jpeg" alt="Design 1">
+      <img src="https://i.imgur.com/FWRAKM6.jpeg" alt="Design 2">
+      <img src="https://i.imgur.com/dS9ZJfr.jpeg" alt="Logo Sample">
+    </div>
+
+    <h2>Gallery – Proudly from Tigray</h2>
+    <div class="images">
+      <img src="https://i.imgur.com/KPyMRhG.jpeg" alt="Tigray Landscape">
+      <img src="https://i.imgur.com/AyN1ZGr.jpeg" alt="Tigray Church">
+      <img src="https://i.imgur.com/Rw94O4y.jpeg" alt="Tigray Flag">
+    </div>
+
+    <h2>Soundtrack Zone 🎵</h2>
+    <audio controls autoplay loop>
+      <source src="https://files.freemusicarchive.org/storage-freemusicarchive-org/music/8bit/Star_Man/Star_Man_-_01_-_Level_1.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <h2>What People Say</h2>
+    <div class="testimonial">“Davejunta is the king of strategy games and the prince of design.”</div>
+    <div class="testimonial">“From Tigray to the world, Dave inspires creativity with culture.”</div>
+    <div class="testimonial">“Orthodox, gamer, leader — a full package.”</div>
+
+    <h2>Connect with Me</h2>
+    <div class="social">
+      <a href="https://t.me/Davejunta" target="_blank">Telegram</a>
+      <a href="https://instagram.com/Davejunta29" target="_blank">Instagram</a>
+      <a href="https://www.facebook.com/profile.php?id=100089579627733" target="_blank">Facebook</a>
+    </div>
+
+    <a class="contact-button" href="tel:+251978096011">📞 Call Me</a>
+
+    <div class="quote">
+      <p>“Graphics is my weapon. Faith is my shield.”</p>
+      <p>“I play wars, I design peace.”</p>
+    </div>
+  </section>
+</body>
+</html>
